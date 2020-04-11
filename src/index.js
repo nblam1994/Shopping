@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'antd/dist/antd.css';
+// import App from './movies/index';
+//import App from './weather/index';
+//import App from "./hooks/index"
+import App from "./shopping/index";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
